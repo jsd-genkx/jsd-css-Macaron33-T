@@ -18,7 +18,7 @@ body {
 .card-container {
   height: 50vh;
   width: 285vh;
-  position: absolute;
+  position: relative;
   background-color: transparent;
   align-items: center;
 }
@@ -47,6 +47,16 @@ body {
   backface-visibility: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transform: rotateY(0deg);
+}
+.card-container .front .bttn {
+  background-color: rgba(104, 9, 9, 0.233);
+  color: blanchedalmond;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  display: block;
+  margin: 0 auto;
 }
 
 .card-container .front .display-picture {
@@ -107,6 +117,7 @@ body {
   border-radius: 12px;
   backface-visibility: hidden;
   transform: rotateY(180deg);
+  position: relative;
 }
 
 .card-container:hover .content {
